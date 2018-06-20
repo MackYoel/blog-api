@@ -1,0 +1,23 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# Virtual environment
+.env
+.venv/
+
+# Unit test / coverage reports
+coverage_html_report/
+htmlcov/
+
+# Coverage
+.coverage
+
+# DS_Store
+.DS_Store
+
+# Local databases
+*.sqlite3
+
+# Django specific directories
+media/
+email-dev/
