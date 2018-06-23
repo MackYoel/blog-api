@@ -7,8 +7,13 @@ name = "pypi"
 django = "*"
 djangorestframework = "*"
 django-filter = "*"
+django-rest-auth = "*"
+django-cors-headers = "*"
+django-allauth = "*"
+raven = "*"
 
 [dev-packages]
+django-debug-toolbar = "*"
 
 [requires]
 python_version = "3.6"
