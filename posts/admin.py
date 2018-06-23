@@ -4,4 +4,4 @@ from . import models
 
 @admin.register(models.Post)
 class PostAdmin(admin.ModelAdmin):
-	pass
+    list_display = ['slug', 'publication_date', 'is_active']
