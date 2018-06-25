@@ -1,2 +1,2 @@
 release: ./bin/release.sh
-web: gunicorn quantum.wsgi --log-file -
+web: gunicorn blog.wsgi --log-file -
