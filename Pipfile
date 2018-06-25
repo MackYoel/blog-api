@@ -9,7 +9,12 @@ djangorestframework = "*"
 django-filter = "*"
 django-rest-auth = "*"
 django-cors-headers = "*"
+dj-database-url = "*"
 django-allauth = "*"
+gunicorn = "*"
+"psycopg2" = "*"
+whitenoise = "*"
+django-heroku = "*"
 raven = "*"
 
 [dev-packages]

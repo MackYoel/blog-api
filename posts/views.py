@@ -8,7 +8,7 @@ from . import models, serializers
 
 
 class PostViewSet(viewsets.ModelViewSet):
-    permission_classes = (permissions.IsAuthenticated,)
+    permission_classes = (permissions.IsAuthenticatedOrReadOnly,)
     serializer_class = serializers.PostSerializer
     pagination_class = pagination.StandardResultsSetPagination
     filter_backends = (django_filters.rest_framework.DjangoFilterBackend, filters.OrderingFilter)
